@@ -1,11 +1,11 @@
 import './App.css'
+import Mainbar from './components/mainbar'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <Mainbar />
     </>
   )
 }
